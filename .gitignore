@@ -1,0 +1,38 @@
+# ignore everything in the root except the "wp-content" directory.
+/*
+!wp-content/
+
+# ignore everything in the "wp-content" directory, except:
+# mu-plugins, plugins, and themes directories
+wp-content/*
+!wp-content/mu-plugins/
+!wp-content/plugins/
+wp-content/plugins/advanced-custom-fields
+wp-content/plugins/akismet
+wp-content/plugins/all-in-one-wp-migration
+wp-content/plugins/crop-thumbnails
+wp-content/plugins/manual-image-crop
+wp-content/plugins/members
+wp-content/plugins/regenerate-thumbnails
+wp-content/plugins/wp-migrate-db
+wp-content/plugins/hello.php
+
+
+!wp-content/themes/
+wp-content/themes/twentytwentytwo
+
+
+# ignore node dependency directories (used by grunt)
+node_modules/
+
+# ignore OS generated files
+ehthumbs.db
+Thumbs.db
+
+# track these files, if they exist
+!.gitignore
+!.editorconfig
+!.phpcs.xml.dist
+!README.md
+!CHANGELOG.md
+!composer.json
