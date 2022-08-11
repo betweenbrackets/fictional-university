@@ -28,6 +28,7 @@ node_modules/
 # ignore OS generated files
 ehthumbs.db
 Thumbs.db
+.DS_Store
 
 # track these files, if they exist
 !.gitignore
